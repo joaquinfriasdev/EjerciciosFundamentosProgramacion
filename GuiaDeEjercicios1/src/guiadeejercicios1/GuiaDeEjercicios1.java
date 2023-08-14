@@ -80,7 +80,18 @@ public class GuiaDeEjercicios1 {
         /* Hacer un programa para ingresar por teclado las tres notas de exámenes de un
         alumno y luego calcule y emita por pantalla el promedio final.*/
         //Resolución
-        
+        /*
+        double nota1, nota2, nota3, promedio;
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Ingrese la primer nota: ");
+        nota1 = teclado.nextDouble();
+        System.out.println("Ingrese la segunda nota: ");
+        nota2 = teclado.nextDouble();
+        System.out.println("Ingrese la tercer nota: ");
+        nota3 = teclado.nextDouble();
+        promedio = (nota1 + nota2 + nota3)/3;
+        System.out.println("El promedio final es: " + promedio);
+        */
         
         
         //Ejercicio 7
@@ -89,6 +100,21 @@ public class GuiaDeEjercicios1 {
         pantalla el porcentaje de metros cuadrados cubiertos y el porcentaje de
         metros cuadrados descubiertos.*/
         //Resolución
+        /*
+        double metrosCuadradosTotales, metrosCuadradosCubiertos, metrosCuadradosDescubiertos, porcentajeCubierto, porcentajeDescubierto;
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Ingrese los metros cuadrados totales del predio: ");
+        metrosCuadradosTotales = teclado.nextDouble();
+        System.out.println("Ingrese los metros cuadrados cubiertos: ");
+        metrosCuadradosCubiertos = teclado.nextDouble();
+        
+        metrosCuadradosDescubiertos = (metrosCuadradosTotales - metrosCuadradosCubiertos);
+        porcentajeCubierto = (metrosCuadradosCubiertos/metrosCuadradosTotales)*100;
+        porcentajeDescubierto = 100 - porcentajeCubierto;
+        
+        System.out.println("El porcentaje Cubierto es : " + porcentajeCubierto + " El porcentaje Descubierto es: " + porcentajeDescubierto);
+        */
         
         
         
