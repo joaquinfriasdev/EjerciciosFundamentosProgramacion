@@ -1,6 +1,8 @@
 
 package guiadeejercicios2;
 
+import java.util.Scanner;
+
 
 public class GuiaDeEjercicios2 {
 
@@ -10,9 +12,19 @@ public class GuiaDeEjercicios2 {
     //Ejercicio 1
     /*Hacer un programa para ingresar un número y luego se emita por pantalla un
     cartel aclaratorio si “Es mayor a 10” o “No es mayor a 10”.*/
-    
+    //Resolución
+    /*
     int num;
     Scanner teclado = new Scanner(System.in);
+    
+    System.out.println("Ingrese el número");
+    num = teclado.nextInt();
+        if (num > 10) {
+            System.out.println("Es mayor a 10");
+        }else{
+            System.out.println("No es mayor a 10");
+        }
+    */
     
     
     //Ejercicio 2
