@@ -31,13 +31,41 @@ public class GuiaDeEjercicios2 {
     /*Hacer un programa para ingresar dos números distintos y luego se muestre por
     pantalla el menor de ellos.
     Nota: no te olvides del ambiente ideal.*/
+    //Resolución
+    /*
+    int num1, num2;
+    Scanner teclado = new Scanner(System.in);
+    
+    System.out.println("Ingrese el primer numero");
+    num1 = teclado.nextInt();
+    System.out.println("Ingrese el segundo numero");
+    num2 = teclado.nextInt();
+    
+        if (num1>num2) {
+            System.out.println("El mayor es " + num1);
+        }else{ System.out.println("El mayor es " + num2);}
+    */
     
     
     //Ejercicio 3
     /*Hacer un programa para ingresar dos números y que luego emita por pantalla
     el mayor de ellos o un cartel aclaratorio “Son iguales” en el caso de que así sea.
     Nota: los números pueden ser iguales.*/
+    //Resolución
     
+    int num1, num2;
+    Scanner teclado = new Scanner(System.in);
+    
+    System.out.println("Ingrese el primer numero");
+    num1 = teclado.nextInt();
+    System.out.println("Ingrese el segundo numero");
+    num2 = teclado.nextInt();
+    
+        if (num1>num2) {
+            System.out.println("El mayor es " + num1);
+        }else if (num1<num2) {System.out.println("El mayor es " + num2);
+            } else{System.out.println("Son iguales");}
+        
     
     //Ejercicio 4
     /*Hacer un programa para ingresar un número y luego se emita un cartel por
