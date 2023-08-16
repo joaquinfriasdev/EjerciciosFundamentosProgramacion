@@ -75,7 +75,6 @@ public class GuiaDeEjercicios1 {
         */
         
         
-        
         //Ejercicio 6
         /* Hacer un programa para ingresar por teclado las tres notas de exámenes de un
         alumno y luego calcule y emita por pantalla el promedio final.*/
@@ -117,14 +116,25 @@ public class GuiaDeEjercicios1 {
         */
         
         
-        
         //Ejercicio 8
         /*Una importante cadena de delivery cuenta con una promoción por tiempo
         limitado en la que otorga un 15% de descuento sobre el total del valor de la
         compra realizada. Hacer un programa para solicitar el monto total y el mismo
         calcule y emita por pantalla el total a cobrar con el descuento aplicado. */
         //Resolución
+        /*
+        double montoTotal;
+        double totalDesc;
+        double descuento;
+        Scanner teclado = new Scanner(System.in);
         
+        System.out.println("Ingrese el monto total");
+        montoTotal = teclado.nextDouble();
+        descuento = (montoTotal * 15) /100;
+        totalDesc = montoTotal - descuento;
+        
+        System.out.println("El monto total con el descuento del 15% es: " + totalDesc);
+        */
         
         
         //Ejercicio 9
@@ -133,7 +143,26 @@ public class GuiaDeEjercicios1 {
         mujeres y la cantidad de hombres y que el mismo calcule y emita por pantalla
         los porcentajes correspondientes.*/
         //Resolución
+        /*
+        int mujeres;
+        int hombres;
+        int total;
+        double porcentajeMujeres;
+        double porcentajeHombres;
+        Scanner teclado = new Scanner(System.in);
         
+        System.out.println("Ingrese la cantidad de mujeres");
+        mujeres = teclado.nextInt();
+        System.out.println("Ingrese la cantidad de hombres");
+        hombres = teclado.nextInt();
+        
+        total = mujeres + hombres;
+        
+        porcentajeMujeres = (double) mujeres / total * 100;
+        porcentajeHombres = (double) hombres / total * 100;
+        
+        System.out.println("El porcentaje de mujeres es: " + porcentajeMujeres + " y el porcentaje de hombres es: " + porcentajeHombres);
+        */
         
         
         //Ejercicio 10
@@ -142,8 +171,26 @@ public class GuiaDeEjercicios1 {
         números. Se deben mostrar cuatro resultados en pantalla. Los números deben
         ser solicitados una única vez. */
         //Resolución
+        /*
+        double num1, num2;
+        double suma, resta, multiplicacion, division;
+        Scanner teclado = new Scanner(System.in);
         
+        System.out.println("Ingrese el primer número");
+        num1 = teclado.nextDouble();
+        System.out.println("Ingrese el segundo número");
+        num2 = teclado.nextDouble();
         
+        suma = num1 + num2;
+        resta = num1 - num2;
+        multiplicacion = num1 * num2;
+        division = num1 / num2;
+        
+        System.out.println("La suma es: " + suma);
+        System.out.println("La resta es: " + resta);
+        System.out.println("La multiplicación es: " + multiplicacion);
+        System.out.println("La división es: " + division);
+        */
         
     }
     
