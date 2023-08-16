@@ -52,7 +52,7 @@ public class GuiaDeEjercicios2 {
     el mayor de ellos o un cartel aclaratorio “Son iguales” en el caso de que así sea.
     Nota: los números pueden ser iguales.*/
     //Resolución
-    
+    /*
     int num1, num2;
     Scanner teclado = new Scanner(System.in);
     
@@ -65,7 +65,9 @@ public class GuiaDeEjercicios2 {
             System.out.println("El mayor es " + num1);
         }else if (num1<num2) {System.out.println("El mayor es " + num2);
             } else{System.out.println("Son iguales");}
-        
+    */
+    
+    
     
     //Ejercicio 4
     /*Hacer un programa para ingresar un número y luego se emita un cartel por
