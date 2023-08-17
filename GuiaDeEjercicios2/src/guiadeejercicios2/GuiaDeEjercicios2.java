@@ -95,7 +95,8 @@ public class GuiaDeEjercicios2 {
     /*Hacer un programa para ingresar un número y mostrar por pantalla un cartel
     aclaratorio si el mismo es PAR o IMPAR.
     Nota: leé sobre el operador “Resto”.*/
-    
+    //Resolución
+    /*
     int num;
     Scanner teclado = new Scanner(System.in);
     
@@ -105,6 +106,9 @@ public class GuiaDeEjercicios2 {
         if (num % 2 == 0) {
             System.out.println("El número es PAR");
         } else{System.out.println("El número es IMPAR");}
+    */
+    
+    
     
     
     //Ejercicio 6
@@ -116,16 +120,82 @@ public class GuiaDeEjercicios2 {
     • Si el importe es ARS 5000 o más, aplica un descuento del 18%.
     Hacer un programa para ingresar un importe de venta y luego muestre por
     pantalla el importe final con el descuento que corresponda.*/
+    //Resolución
+    /*
+    double importe;
+    Scanner teclado = new Scanner(System.in);
+    
+        System.out.println("Ingrese el importe de la compra realizada: ");
+        importe = teclado.nextDouble();
+        
+        if (importe<1000) {
+            System.out.println("El importe es " + importe);
+        } else if (importe >=1000 && importe<5000) {
+            importe = importe - (importe * 0.10);
+            System.out.println("El importe con un descuento del 10% es: " + importe);
+        } else{
+            importe = importe - (importe + 0.18);
+            System.out.println("El importe con un descuento del 18% es: " + importe); 
+        }
+    */
+    
+    
     
     
     //Ejercicio 7
     /*Hacer un programa para ingresar cuatro números distintos y luego mostrar por
     pantalla el mayor de ellos.*/
+    //Resolución
+    /*
+    int num1, num2, num3, num4;
+    Scanner teclado = new Scanner(System.in);
+    
+        System.out.println("Ingrese el primer número: ");
+        num1 = teclado.nextInt();
+        System.out.println("Ingrese el segundo número: ");
+        num2 = teclado.nextInt();
+        System.out.println("Ingrese el tercer número: ");
+        num3 = teclado.nextInt();
+        System.out.println("Ingrese el cuarto número: ");
+        num4 = teclado.nextInt();
+    
+        if (num1>num2 && num2>num3 && num1>num4) {
+            System.out.println("El mayor es " + num1);
+        } else if (num2>num3 && num2>num4) {
+            System.out.println("El mayor es " + num2);
+        } else if (num3>num4) {
+            System.out.println("El mayor es " + num4);
+        } else{ System.out.println("El mayor es " + num4);}
+    */
+    
+    
     
     
     //Ejercicio 8
     /*Hacer un programa para ingresar cuatro números distintos y luego mostrar por
     pantalla el menor de ellos.*/
+        //Resolución
+    
+    int num1, num2, num3, num4;
+    Scanner teclado = new Scanner(System.in);
+    
+        System.out.println("Ingrese el primer número: ");
+        num1 = teclado.nextInt();
+        System.out.println("Ingrese el segundo número: ");
+        num2 = teclado.nextInt();
+        System.out.println("Ingrese el tercer número: ");
+        num3 = teclado.nextInt();
+        System.out.println("Ingrese el cuarto número: ");
+        num4 = teclado.nextInt();
+    
+        if (num1<num2 && num2<num3 && num1<num4) {
+            System.out.println("El menor es " + num1);
+        } else if (num2<num3 && num2<num4) {
+            System.out.println("El menor es " + num2);
+        } else if (num3<num4) {
+            System.out.println("El menor es " + num4);
+        } else{ System.out.println("El menor es " + num4);}
+    
     
     
     //Ejercicio 9
