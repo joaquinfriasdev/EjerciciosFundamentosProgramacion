@@ -203,7 +203,8 @@ public class GuiaDeEjercicios2 {
     //Ejercicio 9
     /*Hacer un programa para ingresar cinco números distintos y luego mostrar por
     pantalla el mayor y el menor de ellos.*/
-    
+    //Resolución
+    /*
     int num1, num2, num3, num4, num5, mayor, menor;
     Scanner teclado = new Scanner(System.in);
     
@@ -244,23 +245,99 @@ public class GuiaDeEjercicios2 {
             menor = num5;
         }
         System.out.println("El mayor es " + mayor + " y el menor es " + menor);
-        
+    */
+
+
+
     //Ejercicio 10
     /*Hacer un programa para ingresar cuatro números y luego mostrar por pantalla
     cuáles son mayores a 100.*/
+    //Resolución
+    /*
+    int num1, num2, num3, num4;
+    Scanner teclado = new Scanner(System.in);
+    
+        System.out.println("Ingrese el primer número: ");
+        num1 = teclado.nextInt();
+        System.out.println("Ingrese el segundo número: ");
+        num2 = teclado.nextInt();
+        System.out.println("Ingrese el tercer número: ");
+        num3 = teclado.nextInt();
+        System.out.println("Ingrese el cuarto número: ");
+        num4 = teclado.nextInt();
+    
+        if (num1>100) {
+            System.out.println("El " + num1 + " es mayor a 100");
+        }
+        if (num2>100) {
+            System.out.println("El " + num2 + " es mayor a 100");
+        }
+        if (num3>100) {
+            System.out.println("El " + num3 + " es mayor a 100");
+        }
+        if (num4>100) {
+            System.out.println("El " + num4 + " es mayor a 100");
+        }
+        */
     
     
+    
+        
     //Ejercicio 11
     /*Hacer un programa para ingresar cuatro números y luego mostrar por pantalla
     cuántos son menores a 100.*/
+    //Resolución
+    /*
+       int num1, num2, num3, num4;
+       int contador = 0;
+    Scanner teclado = new Scanner(System.in);
     
+        System.out.println("Ingrese el primer número: ");
+        num1 = teclado.nextInt();
+        System.out.println("Ingrese el segundo número: ");
+        num2 = teclado.nextInt();
+        System.out.println("Ingrese el tercer número: ");
+        num3 = teclado.nextInt();
+        System.out.println("Ingrese el cuarto número: ");
+        num4 = teclado.nextInt();
     
+        if (num1<100) {
+            contador++;
+        }
+        if (num2<100) {
+            contador++;
+        }
+        if (num3<100) {
+            contador++;
+        }
+        if (num4<100) {
+            contador++;
+        }
+        System.out.println("La cantidad de numeros menores a cero es: " + contador);
+    */
+        
+        
+        
     //Ejercicio 12
     /*Hacer un programa para ingresar un valor que estará expresado en minutos. Si
     los minutos superan los 60, pasar el valor a horas, de lo contrario dejarlo en
     minutos. Mostrar el resultado en pantalla aclarando si se muestran minutos u
     horas.*/
+    //Resolución
+    /*
+    double minutos;
+    double horas;
+    Scanner teclado = new Scanner(System.in);
+    
+        System.out.println("Ingrese los minutos");
+        minutos = teclado.nextDouble();
         
+        if (minutos>60) {
+            horas = minutos / 60;
+            System.out.println("La hora es: " + horas);
+        }
+        System.out.println("Los minutos son: " + minutos);
+    */
     }
     
 }
