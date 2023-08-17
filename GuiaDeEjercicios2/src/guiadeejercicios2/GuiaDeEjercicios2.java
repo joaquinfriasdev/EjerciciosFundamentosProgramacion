@@ -175,7 +175,7 @@ public class GuiaDeEjercicios2 {
     /*Hacer un programa para ingresar cuatro números distintos y luego mostrar por
     pantalla el menor de ellos.*/
         //Resolución
-    
+    /*
     int num1, num2, num3, num4;
     Scanner teclado = new Scanner(System.in);
     
@@ -195,6 +195,8 @@ public class GuiaDeEjercicios2 {
         } else if (num3<num4) {
             System.out.println("El menor es " + num4);
         } else{ System.out.println("El menor es " + num4);}
+    */
+    
     
     
     
@@ -202,6 +204,47 @@ public class GuiaDeEjercicios2 {
     /*Hacer un programa para ingresar cinco números distintos y luego mostrar por
     pantalla el mayor y el menor de ellos.*/
     
+    int num1, num2, num3, num4, num5, mayor, menor;
+    Scanner teclado = new Scanner(System.in);
+    
+        System.out.println("Ingrese el primer número: ");
+        num1 = teclado.nextInt();
+        System.out.println("Ingrese el segundo número: ");
+        num2 = teclado.nextInt();
+        System.out.println("Ingrese el tercer número: ");
+        num3 = teclado.nextInt();
+        System.out.println("Ingrese el cuarto número: ");
+        num4 = teclado.nextInt();
+        System.out.println("Ingrese el quinto número: ");
+        num5 = teclado.nextInt();
+    
+        if (num1>num2) {
+            mayor = num1;
+            menor = num2;   
+        } else{
+            mayor = num2;
+            menor = num1;
+        }
+        
+        if (num3>mayor) {
+            mayor = num3;
+        } else if (num3>menor) {
+            menor = num3;
+        }
+        
+        if (num4>mayor) {
+            mayor = num4;
+        } else if (num4<menor) {
+            menor = num4;
+        }
+        
+        if (num5>mayor) {
+            mayor = num5;
+        } else if (num5<menor) {
+            menor = num5;
+        }
+        System.out.println("El mayor es " + mayor + " y el menor es " + menor);
+        
     //Ejercicio 10
     /*Hacer un programa para ingresar cuatro números y luego mostrar por pantalla
     cuáles son mayores a 100.*/
