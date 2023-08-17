@@ -74,7 +74,8 @@ public class GuiaDeEjercicios2 {
     pantalla “Positivo” si el número es mayor a cero, “Negativo” si el número es
     menor a cero o “Cero” si el número es igual a cero.
     Nota: requiere más de in IF!*/
-    
+    //Resolución
+    /*
     int num;
     Scanner teclado = new Scanner(System.in);
     
@@ -86,11 +87,24 @@ public class GuiaDeEjercicios2 {
         } else if (num<0) {
             System.out.println("El número es negativo");
         } else {System.out.println("Es igual a cero");}
+    */
+    
+    
     
     //Ejercicio 5
     /*Hacer un programa para ingresar un número y mostrar por pantalla un cartel
     aclaratorio si el mismo es PAR o IMPAR.
     Nota: leé sobre el operador “Resto”.*/
+    
+    int num;
+    Scanner teclado = new Scanner(System.in);
+    
+        System.out.println("Ingrese el número");
+        num = teclado.nextInt();
+        
+        if (num % 2 == 0) {
+            System.out.println("El número es PAR");
+        } else{System.out.println("El número es IMPAR");}
     
     
     //Ejercicio 6
