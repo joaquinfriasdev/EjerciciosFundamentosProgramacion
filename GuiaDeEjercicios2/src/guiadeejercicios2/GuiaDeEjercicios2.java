@@ -75,6 +75,17 @@ public class GuiaDeEjercicios2 {
     menor a cero o “Cero” si el número es igual a cero.
     Nota: requiere más de in IF!*/
     
+    int num;
+    Scanner teclado = new Scanner(System.in);
+    
+        System.out.println("Ingrese el número");
+        num = teclado.nextInt();
+        
+        if (num>0) {
+            System.out.println("El número es positivo");
+        } else if (num<0) {
+            System.out.println("El número es negativo");
+        } else {System.out.println("Es igual a cero");}
     
     //Ejercicio 5
     /*Hacer un programa para ingresar un número y mostrar por pantalla un cartel
