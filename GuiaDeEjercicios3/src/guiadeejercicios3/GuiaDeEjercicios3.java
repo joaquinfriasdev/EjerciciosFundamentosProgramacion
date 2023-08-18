@@ -37,6 +37,26 @@ public class GuiaDeEjercicios3 {
         Se deberá emitir un cartel por pantalla con el resultado correspondiente.
         */
         //Resolución
+        /*
+        int num1, num2;
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Ingrese el primer número");
+        num1 = teclado.nextInt();
+        System.out.println("Ingrese el segundo número");
+        num2 = teclado.nextInt();
+        
+        if (num1>num2) {
+            int resta = num1 - num2;
+            System.out.println("La resta de los números es: " + resta);
+        } else if (num1<num2) {
+            int producto = num1 * num2;
+            System.out.println("El producto de los dos números es: " + producto);
+        } else {
+        int suma = num1 + num2;
+            System.out.println("La suma de los dos números es: " + suma);
+        }
+        */
         
         
         //Ejercicio 3
