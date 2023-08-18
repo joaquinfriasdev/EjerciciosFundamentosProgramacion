@@ -94,6 +94,31 @@ public class GuiaDeEjercicios3 {
         Hacer un programa que solicite el ingreso del importe total de la venta y la
         cantidad de litros vendidos y calcule y emita el importe con el descuento aplicado.
         */
+        //Resolución
+        /*
+        double litrosVendidos, importe;
+        double descuento = 0.0;
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Ingrese el importe total");
+        importe = teclado.nextDouble();
+        System.out.println("Ingrese la cantidad vendida en litros: ");
+        litrosVendidos = teclado.nextDouble();
+
+        if (litrosVendidos<=100) {
+            descuento = 0.0;
+        } else if (litrosVendidos>=101&&litrosVendidos<=300) {
+            descuento = 0.10;
+        } else if (litrosVendidos>=301&&litrosVendidos<=500) {
+            descuento = 0.15;
+        } else {
+            descuento = 0.25;
+        }
+        
+        importe = importe - (importe * descuento);
+        System.out.println("El importe es: " + importe);
+        */
+         
         
         
         //Ejercicio 5
