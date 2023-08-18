@@ -120,7 +120,6 @@ public class GuiaDeEjercicios3 {
         */
          
         
-        
         //Ejercicio 5
         /*
         Hacer un programa que solicite el ingreso de las notas del primer parcial y del
@@ -133,8 +132,25 @@ public class GuiaDeEjercicios3 {
             recuperar”.
         El programa debe emitir solo un cartel, el que corresponda.
         */
+        //Resolución
+        /*
+        double nota1, nota2;
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Ingrese la nota del primer parcial: ");
+        nota1 = teclado.nextDouble();
+        System.out.println("Ingrese la nota del segundo parcial: ");
+        nota2 = teclado.nextDouble();
+        
+        if (nota1>=8&&nota2>=8) {
+            System.out.println("Aprobación directa");
+        } else if (nota1>=6&&nota2>=6) {
+            System.out.println("Rinde examen final");
+        } else{System.out.println("Debe recuperar");}
+        */
         
         
+   
         //Ejercicio 6
         /*
         Hacer un programa para ingresar por teclado la longitud de los tres lados de un
