@@ -66,6 +66,21 @@ public class GuiaDeEjercicios3 {
         pantalla; caso contrario, emitir un cartel aclarando que no se puede dividir por
         cero.
         */
+        //Resolución
+        /*
+        double num1, num2;
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Ingrese el primer número: ");
+        num1 = teclado.nextDouble();
+        System.out.println("Ingrese el segundo número: ");
+        num2 = teclado.nextDouble();
+        
+        if (num2!=0) {
+            double division = num1/num2;
+            System.out.println("El resultado de la division de " + num1 + " por " + num2 + " es: " + division);
+        } else {System.out.println("No se puede dividir por cero");}
+        */
         
         
         //Ejercicio 4
