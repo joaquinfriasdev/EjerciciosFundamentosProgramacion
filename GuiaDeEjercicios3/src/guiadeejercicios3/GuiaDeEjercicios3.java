@@ -1,7 +1,7 @@
 
 package guiadeejercicios3;
 
-import java.util.ArrayList;
+import java.util.Scanner;
 
 
 public class GuiaDeEjercicios3 {
@@ -14,6 +14,18 @@ public class GuiaDeEjercicios3 {
         Hacer un programa que solicite el ingreso de un número y que luego emita un
         cartel por pantalla aclarando si el mismo es múltiplo de 5.
         */
+        //Resolución
+        /*
+        int numero;
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Ingrese el número: ");
+        numero = teclado.nextInt();
+        
+        if (numero%5==0) {
+            System.out.println("El número ingresado es múltiplo de cinco"); 
+        } else {System.out.println("El número ingresado no es múltiplo de cinco");}
+        */
         
         
         //Ejercicio 2
@@ -24,6 +36,7 @@ public class GuiaDeEjercicios3 {
             c. El producto si el primero es menor.
         Se deberá emitir un cartel por pantalla con el resultado correspondiente.
         */
+        //Resolución
         
         
         //Ejercicio 3
