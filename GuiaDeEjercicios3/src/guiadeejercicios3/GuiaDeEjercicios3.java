@@ -160,6 +160,25 @@ public class GuiaDeEjercicios3 {
             b. Isósceles: cuando dos de los tres lados sean iguales.
             c. Escaleno: cuando todos los lados sean distintos
         */
+        //Resolución
+        /*
+        double lado1, lado2, lado3;
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Ingrese la longitud del primer lado del triángulo");
+        lado1 = teclado.nextDouble();
+        System.out.println("Ingrese la longitud del seudundo lado del triángulo");
+        lado2 = teclado.nextDouble();
+        System.out.println("Ingrese la longitud del tercecr lado del triángulo");
+        lado3 = teclado.nextDouble();
+        
+        if (lado1 == lado2 && lado2 == lado3) {
+            System.out.println("Es triángulo Equilátero");
+        } else if (lado1 == lado2 || lado1 == lado3 || lado2 == lado3) {
+            System.out.println("Es triángulo Isósceles");
+        } else{ System.out.println("Es triángulo Escaleno");}
+        */
+        
         
         
         //Ejercicio 7
