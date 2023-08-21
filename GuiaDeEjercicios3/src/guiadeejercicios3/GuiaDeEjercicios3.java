@@ -250,6 +250,7 @@ public class GuiaDeEjercicios3 {
         
         
         
+        
         //Ejercicio 9
         /*
         Una importante marca de computadoras permite elegir cierta configuración del
@@ -262,6 +263,26 @@ public class GuiaDeEjercicios3 {
         Hacer un programa que solicite cuatro números y emitir un cartel aclaratorio si
         son todos iguales entre sí, caso contrario, no emitir nada.
         */
+        //Resolución
+        /*
+        int num1, num2, num3, num4;
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Ingrese el primer número");
+        num1 = teclado.nextInt();
+        System.out.println("Ingrese el segundo número");
+        num2 = teclado.nextInt();
+        System.out.println("Ingrese el tercer número");
+        num3 = teclado.nextInt();
+        System.out.println("Ingrese el cuarto número");
+        num4 = teclado.nextInt();
+        
+        if (num1==num2&&num2==num3&&num3==num4) {
+            System.out.println("Los números son iguales");
+        }
+        */
+        
+        
         
         
         //Ejercicio 11
