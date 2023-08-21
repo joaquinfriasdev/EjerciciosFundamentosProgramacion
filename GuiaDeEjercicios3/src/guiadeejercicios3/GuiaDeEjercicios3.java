@@ -186,11 +186,30 @@ public class GuiaDeEjercicios3 {
         Hacer un programa para ingresar 4 números. Luego analizar e informar por
         pantalla si los mismos se encuentran ordenados de forma decreciente.
         */
+        //Resolución
+        /*
+        int num1, num2, num3, num4;
+        Scanner teclado = new Scanner(System.in);
+        
+        System.out.println("Ingrese el primer número");
+        num1 = teclado.nextInt();
+        System.out.println("Ingrese el segundo número");
+        num2 = teclado.nextInt();
+        System.out.println("Ingrese el tercer número");
+        num3 = teclado.nextInt();
+        System.out.println("Ingrese el cuarto número");
+        num4 = teclado.nextInt();
+        
+        if (num1>num2 && num2>num3 && num3>num4) {
+            System.out.println("Los números están ordenados de forma decreciente");
+        } else {System.out.println("Los números no están ordenados de forma decreciente");}
+        */
+        
         
         
         //Ejercicio 8
         /*
-         El negocio de desinfectante antes mencionado vende además detergente
+        El negocio de desinfectante antes mencionado vende además detergente
         suelto, y los precios se aplican según la siguiente escala:
             a. 25 ARS por litro los primeros 50 litros.
             b. 20 ARS por litro si la venta es de 51 a 200 litros.
@@ -201,6 +220,34 @@ public class GuiaDeEjercicios3 {
         (ingresará 1 si paga en efectivo y 0 con cualquier otro medio de pago) y calcule
         y emita por pantalla el monto final a abonar por el cliente
         */
+        //Resolución
+        /*
+        double litrosVendidos, importeFinal;
+        int tipoDePago;
+        Scanner tecladoDouble = new Scanner(System.in);
+        Scanner tecladoInt = new Scanner(System.in);
+        
+        System.out.println("Ingresar la cantidad de litros vendidos");
+        litrosVendidos = tecladoDouble.nextDouble();
+        System.out.println("Ingrese el tipo de pago, 1 efectivo o 0 si es otro medio de pago");
+        tipoDePago = tecladoInt.nextInt();
+        
+        if (litrosVendidos<=50) {
+            importeFinal = 25 * litrosVendidos;
+        } else if (litrosVendidos>50&&litrosVendidos<=200) {
+            importeFinal = 20 * litrosVendidos;
+        } else if (litrosVendidos>200&&litrosVendidos<=500) {
+            importeFinal = 15 * litrosVendidos;
+        } else { importeFinal = 10 * litrosVendidos;}
+        
+        if (tipoDePago == 1) {
+            importeFinal = importeFinal + (importeFinal*0.10);
+            System.out.println("El importe final es: " + importeFinal);
+        } else if (tipoDePago == 0) {
+            System.out.println("El importe final es: " + importeFinal);
+        } else {System.out.println("Tipo de pago no válido");}
+        */
+        
         
         
         //Ejercicio 9
