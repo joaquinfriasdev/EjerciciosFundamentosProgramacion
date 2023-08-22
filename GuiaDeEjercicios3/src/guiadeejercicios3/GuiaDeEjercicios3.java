@@ -292,6 +292,8 @@ public class GuiaDeEjercicios3 {
         */
         
         
+        
+        
         //Ejercicio 12
         /*
         Hacer un programa para ingresar tres números y emitir un cartel aclaratorio si
