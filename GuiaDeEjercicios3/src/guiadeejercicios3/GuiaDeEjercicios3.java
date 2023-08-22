@@ -319,7 +319,7 @@ public class GuiaDeEjercicios3 {
         de menor a mayor.
          */
         //Resolución
-        
+        /*
         Scanner teclado = new Scanner(System.in);
         int num1, num2, num3, mayor, menor;
 
@@ -347,18 +347,36 @@ public class GuiaDeEjercicios3 {
         }
 
         System.out.println("Números ordenados de menor a mayor: " + num1 + ", " + num2 + ", " + num3);
-
+        */
 
         
-    
 
         //Ejercicio 12
         /*
         Hacer un programa para ingresar tres números y emitir un cartel aclaratorio si
         la suma de los dos primeros es mayor al producto del segundo con el tercero
          */
+        /*
+        Scanner teclado = new Scanner(System.in);
+        double num1, num2, num3;
+        double suma, producto;
         
-         
+        System.out.println("Ingrese el primer número: ");
+        num1 = teclado.nextDouble();
+        System.out.println("Ingrese el segundo número: ");
+        num2 = teclado.nextDouble();
+        System.out.println("Ingrese el tercer número: ");
+        num3 = teclado.nextDouble();
+        
+        suma = num1 + num2;
+        producto = num2 * num3;
+        
+        if (suma>producto) {
+            System.out.println("La suma de los dos primeros es mayor al producto del segundo con el tercero");
+        } else {
+            System.out.println("La suma de los dos primeros es menor al producto del segundo con el tercero");
+        }
+        */
         
     }
 
