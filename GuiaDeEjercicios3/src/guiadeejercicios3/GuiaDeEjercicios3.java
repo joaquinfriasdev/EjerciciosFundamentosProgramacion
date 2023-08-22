@@ -1,19 +1,16 @@
-
 package guiadeejercicios3;
 
 import java.util.Scanner;
 
-
 public class GuiaDeEjercicios3 {
 
-
     public static void main(String[] args) {
-        
+
         //Ejercicio 1
         /*
         Hacer un programa que solicite el ingreso de un número y que luego emita un
         cartel por pantalla aclarando si el mismo es múltiplo de 5.
-        */
+         */
         //Resolución
         /*
         int numero;
@@ -25,9 +22,7 @@ public class GuiaDeEjercicios3 {
         if (numero%5==0) {
             System.out.println("El número ingresado es múltiplo de cinco"); 
         } else {System.out.println("El número ingresado no es múltiplo de cinco");}
-        */
-        
-        
+         */
         //Ejercicio 2
         /*
         Hacer un programa que solicite el ingreso de dos números y luego calcular:
@@ -35,7 +30,7 @@ public class GuiaDeEjercicios3 {
             b. La suma si son iguales.
             c. El producto si el primero es menor.
         Se deberá emitir un cartel por pantalla con el resultado correspondiente.
-        */
+         */
         //Resolución
         /*
         int num1, num2;
@@ -56,16 +51,14 @@ public class GuiaDeEjercicios3 {
         int suma = num1 + num2;
             System.out.println("La suma de los dos números es: " + suma);
         }
-        */
-        
-        
+         */
         //Ejercicio 3
         /*
         Hacer un programa para ingresar dos números. Si el segundo es distinto de
         cero, calcular la división del primero por el segundo y mostrar el resultado por
         pantalla; caso contrario, emitir un cartel aclarando que no se puede dividir por
         cero.
-        */
+         */
         //Resolución
         /*
         double num1, num2;
@@ -80,9 +73,7 @@ public class GuiaDeEjercicios3 {
             double division = num1/num2;
             System.out.println("El resultado de la division de " + num1 + " por " + num2 + " es: " + division);
         } else {System.out.println("No se puede dividir por cero");}
-        */
-        
-        
+         */
         //Ejercicio 4
         /*
         Un importante negocio de desinfectante líquido realiza descuentos
@@ -93,7 +84,7 @@ public class GuiaDeEjercicios3 {
             d. Finalmente, si la venta es de más de 500 litros, el descuento es del 25%.
         Hacer un programa que solicite el ingreso del importe total de la venta y la
         cantidad de litros vendidos y calcule y emita el importe con el descuento aplicado.
-        */
+         */
         //Resolución
         /*
         double litrosVendidos, importe;
@@ -117,9 +108,7 @@ public class GuiaDeEjercicios3 {
         
         importe = importe - (importe * descuento);
         System.out.println("El importe es: " + importe);
-        */
-         
-        
+         */
         //Ejercicio 5
         /*
         Hacer un programa que solicite el ingreso de las notas del primer parcial y del
@@ -131,7 +120,7 @@ public class GuiaDeEjercicios3 {
             c. Si tiene menos de 6 en alguno de los dos parciales, emitir “debe
             recuperar”.
         El programa debe emitir solo un cartel, el que corresponda.
-        */
+         */
         //Resolución
         /*
         double nota1, nota2;
@@ -147,10 +136,7 @@ public class GuiaDeEjercicios3 {
         } else if (nota1>=6&&nota2>=6) {
             System.out.println("Rinde examen final");
         } else{System.out.println("Debe recuperar");}
-        */
-        
-        
-   
+         */
         //Ejercicio 6
         /*
         Hacer un programa para ingresar por teclado la longitud de los tres lados de un
@@ -159,7 +145,7 @@ public class GuiaDeEjercicios3 {
             a. Equilátero: cuando los tres lados sean iguales.
             b. Isósceles: cuando dos de los tres lados sean iguales.
             c. Escaleno: cuando todos los lados sean distintos
-        */
+         */
         //Resolución
         /*
         double lado1, lado2, lado3;
@@ -177,15 +163,12 @@ public class GuiaDeEjercicios3 {
         } else if (lado1 == lado2 || lado1 == lado3 || lado2 == lado3) {
             System.out.println("Es triángulo Isósceles");
         } else{ System.out.println("Es triángulo Escaleno");}
-        */
-        
-        
-        
+         */
         //Ejercicio 7
         /*
         Hacer un programa para ingresar 4 números. Luego analizar e informar por
         pantalla si los mismos se encuentran ordenados de forma decreciente.
-        */
+         */
         //Resolución
         /*
         int num1, num2, num3, num4;
@@ -203,10 +186,7 @@ public class GuiaDeEjercicios3 {
         if (num1>num2 && num2>num3 && num3>num4) {
             System.out.println("Los números están ordenados de forma decreciente");
         } else {System.out.println("Los números no están ordenados de forma decreciente");}
-        */
-        
-        
-        
+         */
         //Ejercicio 8
         /*
         El negocio de desinfectante antes mencionado vende además detergente
@@ -219,7 +199,7 @@ public class GuiaDeEjercicios3 {
         Hacer un programa que solicite la cantidad de litros vendidos y el tipo de pago
         (ingresará 1 si paga en efectivo y 0 con cualquier otro medio de pago) y calcule
         y emita por pantalla el monto final a abonar por el cliente
-        */
+         */
         //Resolución
         /*
         double litrosVendidos, importeFinal;
@@ -246,15 +226,12 @@ public class GuiaDeEjercicios3 {
         } else if (tipoDePago == 0) {
             System.out.println("El importe final es: " + importeFinal);
         } else {System.out.println("Tipo de pago no válido");}
-        */
-        
-        
-        
+         */
         //Ejercicio 9
         /*
         Una importante marca de computadoras permite elegir cierta configuración del
         equipo a comprar. Para ello existe la siguiente escala de precios:
-        */
+         */
         //Resoución
         /*
         Scanner teclado = new Scanner(System.in);
@@ -312,15 +289,12 @@ public class GuiaDeEjercicios3 {
         }
         
         System.out.println("El precio de la máquina seleccionada es: " + precio);
-        */
-        
-        
-        
+         */
         //Ejercicio 10
         /*
         Hacer un programa que solicite cuatro números y emitir un cartel aclaratorio si
         son todos iguales entre sí, caso contrario, no emitir nada.
-        */
+         */
         //Resolución
         /*
         int num1, num2, num3, num4;
@@ -338,26 +312,54 @@ public class GuiaDeEjercicios3 {
         if (num1==num2&&num2==num3&&num3==num4) {
             System.out.println("Los números son iguales");
         }
-        */
-        
-        
-        
-        
+         */
         //Ejercicio 11
         /*
          Hacer un programa para ingresar tres números y luego mostrarlos ordenados
         de menor a mayor.
-        */
+         */
+        //Resolución
         
+        Scanner teclado = new Scanner(System.in);
+        int num1, num2, num3, mayor, menor;
+
+        System.out.println("Ingrese el primer número: ");
+        num1 = teclado.nextInt();
+        System.out.println("Ingrese el segundo número: ");
+        num2 = teclado.nextInt();
+        System.out.println("Ingrese el tercer número: ");
+        num3 = teclado.nextInt();
+
+        if (num1>num2) {
+            int temp = num1; //Se guarda el valor en una variable temporal
+            num1 = num2; // El mayor se guarda en la variable num1
+            num2 = temp; // El menor en la variable num2
+        }
+        if (num2>num3) {
+            int temp = num2; //Se guarda el valor en una variable temporal
+            num2 = num3; // Se guarda el valor mayor en la variable num2
+            num3 = temp; // Se guarda el menor valor en la variable num3
+        }
+        if (num1>num2) { //Se vuelven a comparar num1 y num2 de acuerdo a los posibles nuevos valores
+            int temp = num1; 
+            num1 = num2; 
+            num2 = temp; 
+        }
+
+        System.out.println("Números ordenados de menor a mayor: " + num1 + ", " + num2 + ", " + num3);
+
+
         
-        
-        
+    
+
         //Ejercicio 12
         /*
         Hacer un programa para ingresar tres números y emitir un cartel aclaratorio si
         la suma de los dos primeros es mayor al producto del segundo con el tercero
-        */
+         */
+        
+         
         
     }
-    
+
 }
