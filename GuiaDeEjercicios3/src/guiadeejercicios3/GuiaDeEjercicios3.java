@@ -250,12 +250,70 @@ public class GuiaDeEjercicios3 {
         
         
         
-        
         //Ejercicio 9
         /*
         Una importante marca de computadoras permite elegir cierta configuración del
         equipo a comprar. Para ello existe la siguiente escala de precios:
         */
+        //Resoución
+        /*
+        Scanner teclado = new Scanner(System.in);
+        int opcionProcesador, opcionRam, opcionDisco;
+        double precio = 0;
+        
+        System.out.println("Ingrese la opción de procesador Elegida: ");
+        opcionProcesador = teclado.nextInt();
+        System.out.println("Ingrese la opción de memoria RAM elegida: ");
+        opcionRam = teclado.nextInt();
+        System.out.println("¿Ampliar disco? -- 1 Si  -- 2 No: ");
+        opcionDisco = teclado.nextInt();
+        
+        
+        switch (opcionProcesador) {
+            case 1 -> {
+                switch (opcionRam) {
+                    case 1 -> precio = 800;
+                    
+                    case 2 -> precio = 900;
+                    
+                    case 3 -> precio = 1000;
+                        
+                    default -> System.out.println("Opción de memoria RAM no válida");
+                }
+            }
+            case 2 -> {
+                switch (opcionRam) {
+                    case 1 -> precio = 900;
+                    
+                    case 2 -> precio = 1000;
+                        
+                    case 3 -> precio= 1400;
+                        
+                    default -> System.out.println("Opción de memoria RAM no válida");
+                }
+            }
+                
+            case 3 -> {
+                switch (opcionRam) {
+                    case 1 -> precio = 1200;
+                        
+                    case 2 -> precio = 1400;
+                        
+                    case 3 -> precio = 2000;
+                        
+                    default -> System.out.println("Opción de memoria RAM no válida");
+                }
+            }
+            default -> System.out.println("Opción de procesador no válida");
+        }
+        
+        if (opcionDisco==1) {
+           precio = precio + 300;
+        }
+        
+        System.out.println("El precio de la máquina seleccionada es: " + precio);
+        */
+        
         
         
         //Ejercicio 10
