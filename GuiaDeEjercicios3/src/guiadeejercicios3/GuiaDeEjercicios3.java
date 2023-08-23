@@ -23,6 +23,8 @@ public class GuiaDeEjercicios3 {
             System.out.println("El número ingresado es múltiplo de cinco"); 
         } else {System.out.println("El número ingresado no es múltiplo de cinco");}
          */
+        
+        
         //Ejercicio 2
         /*
         Hacer un programa que solicite el ingreso de dos números y luego calcular:

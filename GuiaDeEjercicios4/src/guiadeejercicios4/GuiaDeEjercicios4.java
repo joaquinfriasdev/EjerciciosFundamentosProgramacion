@@ -1,6 +1,8 @@
 
 package guiadeejercicios4;
 
+import java.util.Scanner;
+
 
 public class GuiaDeEjercicios4 {
 
@@ -13,6 +15,22 @@ public class GuiaDeEjercicios4 {
         /*
         Hacer un programa que solicite el ingreso de 10 números y que muestre el 
         mayor de ellos por pantalla. Solo se debe emitir UN valor por pantalla. 
+        */
+        //Resolución
+        /*
+        Scanner teclado = new Scanner(System.in);
+        int num; 
+        int mayor = 0;
+        
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Ingresar un número: ");
+            num = teclado.nextInt();
+            
+            if (num>mayor) {
+                mayor = num;
+            }
+        }
+        System.out.println("El mayor es: " + mayor);
         */
         
         
