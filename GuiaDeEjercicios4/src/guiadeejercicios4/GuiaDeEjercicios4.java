@@ -63,12 +63,24 @@ public class GuiaDeEjercicios4 {
         Hacer un programa para mostrar los números del 1 al 10. No se debe realizar 
         ningún pedido de datos.
         */
+        //Resolución
+        /*
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i+1);
+        }
+        */
         
         
         //Ejercicio 4
         /*
         Hacer un programa para mostrar los números del 10 al 1. No se debe realizar 
         ningún pedido de datos
+        */
+        //Resolución
+        /*
+        for (int i = 10; i > 0; i--) {
+            System.out.println(i);
+        }
         */
         
         
