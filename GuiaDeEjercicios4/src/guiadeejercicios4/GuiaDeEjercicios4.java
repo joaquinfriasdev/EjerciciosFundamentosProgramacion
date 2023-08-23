@@ -36,9 +36,25 @@ public class GuiaDeEjercicios4 {
         
         //Ejercicio 2
         /*
-        Hacer un programa que solicite 20 números y calcule y emita por pantalla 
+        Hacer un programa que solicite 10 números y calcule y emita por pantalla 
         cuántos son positivos (mayores a cero). Se debe mostrar un solo valor: el 
         conteo final
+        */
+        //Resolución
+        /*
+        Scanner teclado = new Scanner(System.in);
+        int num;
+        int cont = 0;
+        
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Ingrese un número");
+            num = teclado.nextInt();
+            
+            if (num>0) {
+                cont++;
+            }
+        }
+        System.out.println("La cantidad de números positivos ingresados fue: " + cont);
         */
         
         
