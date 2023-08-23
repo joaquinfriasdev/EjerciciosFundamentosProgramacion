@@ -89,6 +89,12 @@ public class GuiaDeEjercicios4 {
         Hacer un programa que muestre los números del 1 al 100 de 5 en 5. Ejemplo: 
         0, 5, 10, 15, 20…. 100
         */
+        //Resolución
+        /*
+        for (int i = 0; i < 101; i+=5) {
+            System.out.println(i);
+        }
+        */
         
         
         //Ejercicio 6
