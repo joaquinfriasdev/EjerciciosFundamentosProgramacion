@@ -155,8 +155,28 @@ public class GuiaDeEjercicios4 {
         
         //Ejercicio 8
         /*
-        Hacer un programa que solicite 20 números y luego mostrar por pantalla el 
+        Hacer un programa que solicite 10 números y luego mostrar por pantalla el 
         menor de ellos y la posición en la que fue encontrado
+        */
+        //Resolución
+        /*
+        Scanner teclado = new Scanner(System.in);
+        int num;
+        int posicion = 0;
+        int menor = Integer.MAX_VALUE;
+        
+        System.out.println("Ingrese los 10 numeros: ");
+        
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Ingrese un número: ");
+            num = teclado.nextInt();
+            if (num<menor) {
+                menor = num;
+                posicion = i + 1;
+            }
+        }
+        
+        System.out.println("El menor es: " + menor + " en la posición: " + posicion);
         */
         
         
