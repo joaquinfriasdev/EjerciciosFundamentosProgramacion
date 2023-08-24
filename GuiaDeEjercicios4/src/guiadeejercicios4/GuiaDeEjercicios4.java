@@ -1,6 +1,7 @@
 
 package guiadeejercicios4;
 
+import com.sun.source.tree.BreakTree;
 import java.util.Scanner;
 
 
@@ -103,6 +104,25 @@ public class GuiaDeEjercicios4 {
         aclaratorio si el mismo es primo o no es primo. 
         Nota: un numero es primo cuando es divisible únicamente por 1 y por sí 
         mismo
+        */
+        //Resolución
+        /*
+        Scanner teclado = new Scanner(System.in);
+        double num;
+        int cont = 0;
+        
+        System.out.println("Ingrese el número: ");
+        num = teclado.nextDouble();
+        
+        for (int i = 1; i <= num; i++) {
+            if (num%i==0) {
+                cont++;
+            }
+        }
+        
+        if (cont==2) {
+            System.out.println("Es primo");
+        } else {System.out.println("No es primo");}
         */
         
         
