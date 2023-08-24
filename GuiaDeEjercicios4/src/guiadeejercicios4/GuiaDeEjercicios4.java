@@ -182,8 +182,32 @@ public class GuiaDeEjercicios4 {
         
         //Ejercicio 9
         /*
-        Hacer un programa que solicite 20 edades y luego calcule el promedio de edad 
+        Hacer un programa que solicite 10 edades y luego calcule el promedio de edad 
         de aquellas personas mayores a 18 años
+        */
+        //Resolución
+        /*
+        Scanner teclado = new Scanner(System.in);
+        int edad;
+        double promedio;
+        int cont = 0;
+        int sumaEdades = 0;
+        
+        System.out.println("Ingrese las diez edades: ");
+        
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Ingrese la edad: ");
+            edad = teclado.nextInt();
+            
+            if (edad>=18) {
+                cont++;
+                sumaEdades += edad;
+            }
+        }
+        
+        promedio = sumaEdades / cont;
+        
+        System.out.println("El promedio de edad de las personas mayores a 18 es: " + promedio);
         */
         
         
