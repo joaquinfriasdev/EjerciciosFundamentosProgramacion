@@ -131,6 +131,26 @@ public class GuiaDeEjercicios4 {
         Hacer un programa que solicite 10 números y luego mostrar por pantalla el 
         máximo de ellos y la posición en la que fue ingresado
         */
+        //Resolución
+        /*
+        Scanner teclado = new Scanner(System.in);
+        int num;
+        int posicion = 0;
+        int mayor = 0;
+        
+        System.out.println("Ingrese los 10 numeros: ");
+        
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Ingrese un número: ");
+            num = teclado.nextInt();
+            if (num>mayor) {
+                mayor = num;
+                posicion = i + 1;
+            }
+        }
+        
+        System.out.println("El mayor es: " + mayor + " en la posición: " + posicion);
+        */
         
         
         //Ejercicio 8
