@@ -377,7 +377,7 @@ public class GuiaDeEjercicios3 {
             System.out.println("La suma de los dos primeros es mayor al producto del segundo con el tercero");
         } else {
             System.out.println("La suma de los dos primeros es menor al producto del segundo con el tercero");
-        }
+        .}
         */
         
     }
