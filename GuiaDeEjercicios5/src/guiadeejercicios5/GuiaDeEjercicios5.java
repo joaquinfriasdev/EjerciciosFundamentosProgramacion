@@ -16,8 +16,16 @@ public class GuiaDeEjercicios5 {
         }
         */
         
-        
         //Ejercicio 2
+        /*
+        int num = 10;
+        while (num>=1) {            
+            System.out.println(num);
+            num--;
+        }
+        */
+        
+        
         //Ejercicio 3
         //Ejercicio 4
         //Ejercicio 5
