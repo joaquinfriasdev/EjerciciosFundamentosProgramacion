@@ -65,6 +65,15 @@ public class GuiaDeEjercicios5 {
         */
         
         //Ejercicio 5
+        /*
+        int num = -5;
+        
+        while (num<100) {            
+            num += 5;
+            System.out.println(num);
+        }
+        */
+        
         //Ejercicio 6
         //Ejercicio 7
         //Ejercicio 8
