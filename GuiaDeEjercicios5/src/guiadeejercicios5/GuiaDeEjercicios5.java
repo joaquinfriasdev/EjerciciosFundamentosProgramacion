@@ -1,6 +1,8 @@
 
 package guiadeejercicios5;
 
+import java.util.Scanner;
+
 
 public class GuiaDeEjercicios5 {
 
@@ -25,8 +27,20 @@ public class GuiaDeEjercicios5 {
         }
         */
         
-        
         //Ejercicio 3
+        /*
+        Scanner teclado = new Scanner(System.in);
+        int edad = Integer.MAX_VALUE;
+        int cont = 0;
+        
+        while (edad>=18) {  
+        System.out.println("Ingrese la edad");
+        edad = teclado.nextInt();
+            cont++;
+        }
+        System.out.println("La cantidad de personas mayores a 18 son: " + (cont-1));
+        */
+        
         //Ejercicio 4
         //Ejercicio 5
         //Ejercicio 6
