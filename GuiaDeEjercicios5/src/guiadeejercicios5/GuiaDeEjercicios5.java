@@ -42,6 +42,28 @@ public class GuiaDeEjercicios5 {
         */
         
         //Ejercicio 4
+        /*
+        Scanner teclado = new Scanner(System.in);
+        int num1, num2;
+        
+        System.out.println("Ingresar el primer número: ");
+        num1 = teclado.nextInt();
+        System.out.println("Ingresar el segundo número: ");
+        num2 = teclado.nextInt();
+        
+        if (num1>num2) {
+            while (num1!=num2) {                
+                num1--;
+                System.out.println(num1);         
+            }
+        } else{
+            while (num2!=num1) {                
+                num2--;
+                System.out.println(num2);
+            }
+        }
+        */
+        
         //Ejercicio 5
         //Ejercicio 6
         //Ejercicio 7
