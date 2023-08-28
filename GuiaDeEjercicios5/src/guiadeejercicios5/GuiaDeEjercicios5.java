@@ -174,10 +174,14 @@ public class GuiaDeEjercicios5 {
         
         
         //Ejercicio 9
-                Scanner teclado = new Scanner(System.in);
+        /*
+        Scanner teclado = new Scanner(System.in);
         int num;
         int menor = Integer.MAX_VALUE;
         int segundoMenor = Integer.MAX_VALUE;
+        int posicion = 0;
+        int posMenor = 0;
+        int posSegundo = 0;
         
         System.out.println("Ingrese la lista de números, Corta con cero.");
         num = teclado.nextInt();
@@ -186,23 +190,27 @@ public class GuiaDeEjercicios5 {
             if (num<menor) {
                 segundoMenor = menor;
                 menor = num;
+                posMenor = posicion;
             } else if (num<segundoMenor) {
                 segundoMenor = num;
+                posSegundo = posMenor;
             }
-            
+            posicion++;
             num = teclado.nextInt();
         }
         
         if (menor == Integer.MAX_VALUE) {
             System.out.println("No se ingresaron números");
         } else{
-            System.out.println("El menor es : " + menor);
+            System.out.println("El menor es : " + menor + " y su posición es: " + (posMenor+1));
             if (segundoMenor==Integer.MAX_VALUE) {
                 System.out.println("No hay segundo menor.");
             } else {
-                System.out.println("El segundo menor es: " + segundoMenor);
+                System.out.println("El segundo menor es: " + segundoMenor + " y su posición es: " + (posSegundo+1));
             }
         }
+        */
+        
         
         //Ejercicio 10
         //Ejercicio 11
