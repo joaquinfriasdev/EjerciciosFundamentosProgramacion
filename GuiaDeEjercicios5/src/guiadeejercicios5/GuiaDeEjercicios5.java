@@ -75,7 +75,36 @@ public class GuiaDeEjercicios5 {
         */
         
         //Ejercicio 6
+        Scanner Scanner = new Scanner(System.in);
+        int num;
+        
+        System.out.println("Ingresa un número");
+        num = Scanner.nextInt();
+        
+        boolean esPrimo = true;
+        
+        if (num <= 1) {
+            esPrimo = false;
+        } else {
+            int divisor = 2;
+            while (divisor <= Math.sqrt(num)) {                
+                if (num % divisor == 0) {
+                    esPrimo = false;
+                    break;
+                }
+                divisor++;
+            }
+        }
+        
+        if (esPrimo) {
+            System.out.println(num + " es un número primo.");
+        } else {
+            System.out.println(num + " no es un número primo.");
+        }
+        
+        
         //Ejercicio 7
+        
         //Ejercicio 8
         //Ejercicio 9
         //Ejercicio 10

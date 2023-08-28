@@ -29,6 +29,8 @@ public class GuiaDeEjercicios4 {
         }
         System.out.println("El mayor es: " + mayor);
          */
+        
+        
         //Ejercicio 2
         /*
         Hacer un programa que solicite 10 números y calcule y emita por pantalla 
@@ -51,6 +53,8 @@ public class GuiaDeEjercicios4 {
         }
         System.out.println("La cantidad de números positivos ingresados fue: " + cont);
          */
+        
+        
         //Ejercicio 3
         /*
         Hacer un programa para mostrar los números del 1 al 10. No se debe realizar 
@@ -62,6 +66,8 @@ public class GuiaDeEjercicios4 {
             System.out.println(i+1);
         }
          */
+        
+        
         //Ejercicio 4
         /*
         Hacer un programa para mostrar los números del 10 al 1. No se debe realizar 
@@ -73,6 +79,8 @@ public class GuiaDeEjercicios4 {
             System.out.println(i);
         }
          */
+        
+        
         //Ejercicio 5
         /*
         Hacer un programa que muestre los números del 1 al 100 de 5 en 5. Ejemplo: 
@@ -84,6 +92,8 @@ public class GuiaDeEjercicios4 {
             System.out.println(i);
         }
          */
+        
+        
         //Ejercicio 6
         /*
         Hacer un programa que solicite UN número y luego calcule y emita un cartel 
@@ -110,6 +120,8 @@ public class GuiaDeEjercicios4 {
             System.out.println("Es primo");
         } else {System.out.println("No es primo");}
          */
+        
+        
         //Ejercicio 7
         /*
         Hacer un programa que solicite 10 números y luego mostrar por pantalla el 
@@ -135,6 +147,8 @@ public class GuiaDeEjercicios4 {
         
         System.out.println("El mayor es: " + mayor + " en la posición: " + posicion);
          */
+        
+        
         //Ejercicio 8
         /*
         Hacer un programa que solicite 10 números y luego mostrar por pantalla el 
@@ -160,6 +174,8 @@ public class GuiaDeEjercicios4 {
         
         System.out.println("El menor es: " + menor + " en la posición: " + posicion);
          */
+        
+        
         //Ejercicio 9
         /*
         Hacer un programa que solicite 10 edades y luego calcule el promedio de edad 
@@ -189,6 +205,8 @@ public class GuiaDeEjercicios4 {
         
         System.out.println("El promedio de edad de las personas mayores a 18 es: " + promedio);
          */
+        
+        
         //Ejercicio 10
         /*
         Hacer un programa que solicite 10 números y luego emitir por pantalla el 
@@ -218,6 +236,8 @@ public class GuiaDeEjercicios4 {
         System.out.println("El máximo de los pares es: " + mayPar);
         System.out.println("El menor de los impares es: " + menInpar);
          */
+        
+        
         //Ejercicio 11
         /*
         Hacer un programa para ingresar 10 números y luego calcule y emita el mayor 
