@@ -75,6 +75,7 @@ public class GuiaDeEjercicios5 {
         */
         
         //Ejercicio 6
+        /*
         Scanner Scanner = new Scanner(System.in);
         int num;
         
@@ -101,9 +102,42 @@ public class GuiaDeEjercicios5 {
         } else {
             System.out.println(num + " no es un número primo.");
         }
+        */
         
         
         //Ejercicio 7
+        /*
+        Scanner teclado = new Scanner(System.in);
+        
+        int num;
+        int max = Integer.MIN_VALUE;
+        int posMax = -1;
+        int pos = 0;
+        
+        System.out.println("Ingresa una lista de números. Para cortar ingresa cero");
+        
+        do {
+            System.out.println("Ingresa un número");
+            num = teclado.nextInt();
+            
+            if (num!=0) {
+                pos++;
+                if (num>max) {
+                    max = num;
+                    posMax = pos;
+                }
+            }
+            
+        } while (num!=0);
+        
+        if (posMax != -1) {
+            System.out.println("El máximo ingresado es: " + max);
+            System.out.println("Fue ingresado en la posición: " + posMax);
+        } else {
+            System.out.println("No se ingresaron números distintos de cero.");
+        }
+        */
+        
         
         //Ejercicio 8
         //Ejercicio 9
