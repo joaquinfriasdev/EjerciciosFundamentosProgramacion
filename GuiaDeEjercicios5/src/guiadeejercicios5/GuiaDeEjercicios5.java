@@ -140,7 +140,70 @@ public class GuiaDeEjercicios5 {
         
         
         //Ejercicio 8
+        /*
+        Scanner teclado = new Scanner(System.in);
+        int num;
+        int menor = Integer.MAX_VALUE;
+        int segundoMenor = Integer.MAX_VALUE;
+        
+        System.out.println("Ingrese la lista de números, Corta con cero.");
+        num = teclado.nextInt();
+        
+        while (num!=0) {            
+            if (num<menor) {
+                segundoMenor = menor;
+                menor = num;
+            } else if (num<segundoMenor) {
+                segundoMenor = num;
+            }
+            
+            num = teclado.nextInt();
+        }
+        
+        if (menor == Integer.MAX_VALUE) {
+            System.out.println("No se ingresaron números");
+        } else{
+            System.out.println("El menor es : " + menor);
+            if (segundoMenor==Integer.MAX_VALUE) {
+                System.out.println("No hay segundo menor.");
+            } else {
+                System.out.println("El segundo menor es: " + segundoMenor);
+            }
+        }
+        */
+        
+        
         //Ejercicio 9
+                Scanner teclado = new Scanner(System.in);
+        int num;
+        int menor = Integer.MAX_VALUE;
+        int segundoMenor = Integer.MAX_VALUE;
+        
+        System.out.println("Ingrese la lista de números, Corta con cero.");
+        num = teclado.nextInt();
+        
+        while (num!=0) {            
+            if (num<menor) {
+                segundoMenor = menor;
+                menor = num;
+            } else if (num<segundoMenor) {
+                segundoMenor = num;
+            }
+            
+            num = teclado.nextInt();
+        }
+        
+        if (menor == Integer.MAX_VALUE) {
+            System.out.println("No se ingresaron números");
+        } else{
+            System.out.println("El menor es : " + menor);
+            if (segundoMenor==Integer.MAX_VALUE) {
+                System.out.println("No hay segundo menor.");
+            } else {
+                System.out.println("El segundo menor es: " + segundoMenor);
+            }
+        }
+        
         //Ejercicio 10
         //Ejercicio 11
         
