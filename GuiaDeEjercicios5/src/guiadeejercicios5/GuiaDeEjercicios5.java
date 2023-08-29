@@ -247,8 +247,57 @@ public class GuiaDeEjercicios5 {
         
         
         //Ejercicio 11
+        /*
+        System.out.println("Ingrese una lista de números, corta con cero.");
+        Scanner teclado = new Scanner(System.in);
+        int num = teclado.nextInt();
+        int primos = 0;
+        int pares = 0;
+        int positivos = 0;
+        int negativos = 0;
         
-        
+        while (num!=0) {            
+            if (num>0) {
+                positivos++;
+                if (num%2==0) {
+                    pares++;
+                }
+                
+            } else{
+                negativos++;
+                if (num%2==0) {
+                    pares++;
+                }
+            }
+            
+            if (esPrimo(num)) {
+                primos++;
+            }
+            
+            System.out.println("Ingrese un número");
+            num = teclado.nextInt();
+                
+        }
+               
+        System.out.println("La cantidad de números primos es: " + primos);
+        System.out.println("La cantidad de números pares es: " + pares);
+        System.out.println("La cantidad de números positivos es: " + positivos);
+        System.out.println("La cantidad de números negativos es: " + negativos);
+       */ 
+    }
+    
+           //Función para saber si un número es primo
+        public static boolean esPrimo(int num) {
+        if (num <= 1) {
+            return false;
+        }
+
+        for (int i = 2; i <= Math.sqrt(num); i++) {
+            if (num % i == 0) {
+                return false;
+            }
+        }
+        return true;
     }
     
 }
