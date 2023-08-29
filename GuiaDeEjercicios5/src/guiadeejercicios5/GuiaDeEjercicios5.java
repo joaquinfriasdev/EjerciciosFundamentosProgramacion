@@ -213,6 +213,39 @@ public class GuiaDeEjercicios5 {
         
         
         //Ejercicio 10
+        /*
+        System.out.println("Ingrese una lista de números, ingrese cero para cortar");
+        
+        Scanner teclado = new Scanner(System.in);
+        int num = teclado.nextInt();
+        int maxNeg = Integer.MIN_VALUE;
+        int minPos = Integer.MAX_VALUE;
+        
+   
+        while (num!=0) {            
+            if (num<0 && num>maxNeg) {
+                maxNeg = num;
+            } else if (num>0 && num<minPos) {
+                minPos = num;
+            }
+            System.out.println("Ingrese un número");
+            num = teclado.nextInt();
+        }
+        
+        if (maxNeg!=Integer.MIN_VALUE) {
+            System.out.println("El máximo de los números negativos es: " + maxNeg);
+        } else {
+            System.out.println("No se ingresaron números negativos");
+        }
+        
+        if (minPos!=Integer.MAX_VALUE) {
+            System.out.println("El mínimo ded los números positivos es: " + minPos);
+        } else {
+            System.out.println("No se ingresaron números positivos");
+        }
+        */
+        
+        
         //Ejercicio 11
         
         
